@@ -28,6 +28,9 @@ body {
 }
 
 .d-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     list-style: none;
     position: relative;
     font-size: 15px;
