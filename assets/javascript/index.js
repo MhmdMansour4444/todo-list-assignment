@@ -1,7 +1,7 @@
 const Login = (event) => {
     event.preventDefault();
-    const correctName = "admin";
-    const correctPass = "admin1";
+    const correctName = "AdminSEF123";
+    const correctPass = "SeF@ctORy$$456";
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
     let hiddenMsg = document.getElementById("hiddenMsg");
