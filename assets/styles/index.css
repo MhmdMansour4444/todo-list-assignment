@@ -42,6 +42,8 @@ h4{
     padding: 5px 0px;
 }
 
+
+
 input[type="text"],
 input[type="password"] {
     width: 100%;
@@ -83,14 +85,7 @@ input[type="submit"]:hover {
 #hidden-loading{
     display: none;
 }
-h4{
-    text-align: center;
-    color: red;
-    border: 2px solid red;
-    width: 60%;
-    background-color: rgba(255, 0, 0, 0.178);
-    padding: 5px 0px;
-}
+
 
 @media screen and (max-width: 768px) {
     body {
@@ -110,10 +105,5 @@ h4{
         height: 100vh;
         
     }
-    h2{
-        text-align: center;
-        width: 100% !important;
-        font-size: 40px;
-        margin-top: 100px;
-    }
+    
 }
