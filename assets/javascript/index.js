@@ -1,0 +1,28 @@
+const Login = (event) => {
+    event.preventDefault();
+    const correctName = "admin";
+    const correctPass = "admin1";
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+    let hiddenMsg = document.getElementById("hiddenMsg");
+    let hiddenLoading= document.getElementById("hidden-loading");
+
+    if(username == correctName && password == correctPass){
+    // if sign in is success:
+    hiddenMsg.style.display = "block";
+    hiddenMsg.style.color= "green";
+    hiddenMsg.style.border= "1px solid green";
+    hiddenMsg.style.backgroundColor= "#0080003d";
+    hiddenMsg.innerHTML = "Logging you in!";
+    hiddenLoading.style.display = "block";
+
+
+    return;
+}
+
+hiddenMsg.style.display = "block";
+
+};
+   
+
+    
